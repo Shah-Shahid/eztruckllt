@@ -1,0 +1,123 @@
+.view {
+  /* background: url("https://img.freepik.com/free-photo/modern-building-office-blue-sky-background_35761-198.jpg?size=626&ext=jpg")no-repeat center center fixed; */
+  background: transparent;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* .navbar {
+  background-color: transparent !important;
+}
+
+::ng-deep .top-nav-collapse {
+  background-color: #43b0ff;
+}
+
+@media only screen and (max-width: 768px) {
+  ::ng-deep .navbar {
+      background-color: #43b0ff;
+  }
+}
+@media (max-width: 768px) {
+  ::ng-deep .navbar:not(.top-nav-collapse) {
+    background-color: #43b0ff;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  ::ng-deep .navbar:not(.top-nav-collapse) {
+    background-color: #43b0ff;
+  }
+} */
+::ng-deep .more-text{
+transition: all 600ms, ease-in-out 600ms !important;
+}
+ng::deep .icon-zoom:hover .my-icon{
+transform: scale3d(1.6, 1.6, 1.6) !important;
+}
+
+
+.carousel-caption {
+  position: absolute;
+  right: 10%;
+  top: 130px;
+  bottom: 30%;
+  width: 350px;
+  left: 65%;
+  z-index: 10;
+  color: rgb(27, 24, 24);
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+.md-form .prefix {
+  left: 0px;
+}
+.btn-outline-info {
+  background-color: transparent!important;
+  border: 2px solid #273a64c2!important;
+  color: #2a3d68cb!important;
+  border-radius: 50px;
+}
+.btn-outline-info:hover {
+  background-color: #243766a8!important;
+  border: 2px solid #243766a8!important;
+  color: #f4f5f8!important;
+  border-radius: 50px;
+  font-weight: 500;
+}
+.info-color {
+  background-color: #24355c91 !important;
+
+}
+.login-card {
+  border: 0;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  font-weight: 400;
+  width: 450px;
+  background-color: rgba(216, 224, 231, 0.788);
+}
+::ng-deep .md-form .grey-text {
+  color: #24355cc2 !important;
+}
+::ng-deep .md-form .active {
+  color: #1f2e53 !important;
+}
+
+
+.md-form label {
+  cursor: text;
+  color: #2a3d68af;
+}
+.md-form input[type=text], .md-form input[type=password], .md-form input[type=email], .md-form input[type=url], .md-form input[type=time], .md-form input[type=date], .md-form input[type=datetime-local], .md-form input[type=tel], .md-form input[type=number], .md-form input[type=search-md], .md-form input[type=search], .md-form textarea.md-textarea {
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border-bottom: 1px solid #24355c;
+}
+.md-form input:focus {
+  box-shadow: 0 1px 0 0 #223157;
+}
+
+.main-section {
+  background-color: #E6E6E6;
+}
+.box-img {
+  float: left;
+}
+.box-img:hover {
+  opacity: .3;
+}
+.box-link {
+  font-family: 'Montserrat', sans-serif;
+  /* text-align: justify; */
+  padding-right: 10px;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -99;
+}
+

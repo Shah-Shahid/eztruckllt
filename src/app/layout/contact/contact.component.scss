@@ -1,0 +1,32 @@
+.main-section {
+  background-color: #fff;
+}
+/* .frm-container {
+  border: 2px solid white;
+  border-radius: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+} */
+.my-input {
+  border-radius: 5px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  border: 3px solid #192A56;
+  height: 50px;
+  color: #192A56;
+  font-size: large;
+}
+.btn-submit {
+  border-radius: 50px;
+  color: #192A56;
+  border: 3px solid #192A56;
+  background: transparent;
+  font-weight: bolder;
+  width: 99%;
+}
+.btn-submit:hover {
+  color: #fff;
+  border: 3px solid #192A56;
+  background: #192A56;
+  font-weight: bolder;
+}
